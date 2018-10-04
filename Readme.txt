@@ -1,0 +1,1 @@
+This file was created because we can't merge new branch into the empty master branch.
