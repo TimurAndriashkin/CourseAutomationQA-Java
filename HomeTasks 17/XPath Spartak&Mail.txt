@@ -1,0 +1,36 @@
+XPath 
+
+
+Spartak
+
+1) .//ul[@id = "main-nav"]//a[text() = "Главная"]
+2) .//ul[@id = "main-nav"]//a[text() = "Партнеры"]
+3) .//button [@id = "user-auth-menu"]
+4).//ul[@id = "lang-switcher"]//a[text() = "Ch"]
+5) .//a[@id = "bx_290038399_44"]
+6) .//img[@id = "bx_290038399_36"]
+7).//a[@id = "bx_290038399_47"]
+8) .//li[@id = "bx_2026312816_258" and @aria-hidden = "false"]//img[@src ="/upload/iblock/135/13513cd7c4e879fb987b1f327f41007e.png"]
+9) .// a[@href="/contacts/affiliates/"]
+10) .// header [@class="section-header"]//h2[text() = "О компании"]
+11) .// a [@href="https://vk.com/spartakby" and @target = "_blank"]
+12) .// a [@href="https://www.youtube.com/channel/UC2xYusMBxs4XkwoPotvTw4A" and @target = "_blank"]
+
+mail.ru
+
+1) .// span [@class = "x-ph__link__text" and text() = "Мой Мир"]
+2) .// i [@class = "x-ph__menu__button__text" and text() = "Все проекты"]
+3) .//a [@data-name="pictures"]
+4) .//label [@for="q" and @class = "search__icon"]
+5) .//input [@id="search:submit"]
+6) .//span [@id="cal"]
+7) .//input [@tabindex="21"]
+8) .//a [@tabindex="33"]
+9) .//span [@name="clb818633"]
+10) .//input [@id="mailbox:saveauth"]
+11).//h3[text() = "ICQ"]
+12) .//a[@name="clb571759"]
+13) .//div[@class="o-media__body news-item__body i-fade-white i-fade-offset"]
+14) .//div[@class="well notify i-link-no-deco i-absolute m-bordered m-animated-shadow m-animated-borderless"]
+15) .//a[@name="clb23480515"]//span [@class="rate__icon-small rate__icon-small_usd"]
+16).//a[@id="footer:feed-switch"]
