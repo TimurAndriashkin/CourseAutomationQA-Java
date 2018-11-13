@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class SeleniumBookingTest {
+public class BookingSeleniumTest {
 	private WebDriver driver;
 
 	@BeforeTest
@@ -33,7 +33,7 @@ public class SeleniumBookingTest {
 	public void testBooking() {
 
 		WebElement searchLine = findElementByXpath(driver, ".//input[@aria-label=\"Type your destination\"]");
-		searchLine.sendKeys("Москва");
+		searchLine.sendKeys("РњРѕСЃРєРІР°");
 		WebElement searchCheckIn = findElementByXpath(driver, "(.//button[@tabindex=\"0\"])[1]");
 		searchCheckIn.click();
 		WebElement searchCheckInDate = findElementByXpath(driver, ".//td[@data-date=\"2018-11-23\"]");
@@ -51,7 +51,6 @@ public class SeleniumBookingTest {
 		WebElement searchSubmitButton = findElementByXpath(driver, ".// button[@data-sb-id=\"main\"]");
 		searchSubmitButton.submit();
 		List<WebElement> searchResults = findElementsByXpath(driver, ".//div[@data-et-view=\" eWHJbWPNZWEHXT:5\"]");
-		System.out.println(searchResults.size() == 0 ? "Hotels NOT found" : "Hotels found");
 		assertFalse(searchResults.isEmpty(), "Hotels NOT found!");
 
 // Part 2
